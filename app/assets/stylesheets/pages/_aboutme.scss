@@ -1,0 +1,61 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+  padding: 150px 0;
+}
+
+.team_avatar {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+
+.servizi {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.servizi p {
+  margin-top: 25px;
+  color: white;
+  background: #001525;
+  text-align: center;
+  padding: 5px 20px;
+}
+
+// box blue
+
+.box_blue {
+  padding-bottom: 50px;
+}
+
+.text_blue {
+  padding-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+
+.box_blue p {
+  margin-top: 25px;
+}
+
+// box white
+
+.box_white {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.text_white {
+  padding-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #001525;
+}
+
+.box_white p {
+  margin-top: 25px;
+}
+
