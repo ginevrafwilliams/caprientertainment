@@ -2,6 +2,11 @@
 //   background-color: $blue;
 // }
 
+img {
+  width: 180px;
+  // margin-right: 203px;
+}
+
 nav {
   height: 10vh;
   background: #001525;
@@ -10,11 +15,12 @@ nav {
 .nav-links {
   display: flex;
   list-style: none;
-  width: 50%;
+  // width: 50%;
   height: 100%;
   justify-content: space-around;
   align-items: center;
   margin-left: auto;
+  margin-right: 50px;
 }
 
 .nav-links li a {
@@ -96,6 +102,9 @@ nav {
   }
   .nav-links li:nth-child(5) {
     transition: all 0.5s ease 0.5s;
+  }
+  .nav-links li:nth-child(6) {
+    transition: all 0.5s ease 0.6s;
   }
 
   li.fade {
