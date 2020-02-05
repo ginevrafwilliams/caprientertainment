@@ -1,11 +1,27 @@
 <div class="header">
-<nav class="navbar" role="navigation" aria-label="main navigation">
+
+    <nav>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">CHI SIAMO</a></li>
+        <li><a href="#">LAVORI</a></li>
+        <li><a href="#">NOTES</a></li>
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">CONTATTI</a></li>
+      </ul>
+    </nav>
+
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
-      <img src="/assets/logo.png" >
+      <img src="/assets/logo.png" width="112" height="28">
     </a>
 
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <a class="navbar-burger burger" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -13,52 +29,65 @@
   </div>
 
   <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Home
-      </a>
+    <div class="navbar-end">
 
       <a class="navbar-item">
-        Documentation
+        CHI SIAMO
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          More
+          LAVORI
         </a>
-
         <div class="navbar-dropdown">
           <a class="navbar-item">
-            About
+            FILM e TV
           </a>
           <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
+            BRANDED
           </a>
         </div>
       </div>
-    </div>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
-      </div>
+      <a class="navbar-item">
+        NOTES
+      </a>
+
+      <a class="navbar-item">
+        NEWS
+      </a>
+
+      <a class="navbar-item">
+        CONTATTI
+      </a>
+
     </div>
   </div>
 </nav>
+<script type="text/javascript">
+  (function() {
+  var burger = document.querySelector('.burger');
+  var nav = document.querySelector('#'+burger.dataset.target);
+
+  burger.addEventListener('click', function(){
+    burger.classList.toggle('is-active');
+    nav.classList.toggle('is-active');
+  });
+})();
+</script> -->
+
+<script type="text/javascript">
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".nav-links");
+  const links = document.querySelectorAll(".nav-links li");
+
+  hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+  links.forEach(link => {
+    link.classList.toggle("fade");
+  });
+});
+</script>
 
   <div class="box_blue">
     <div class="banner">
