@@ -1,2 +1,50 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contact.html.erb</p>
+  <nav>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <ul class="nav-links">
+      <a href="/"><img src="/assets/logo.png" alt=""></a>
+      <li><a href="/about">CHI SIAMO</a></li>
+      <li><a>LAVORI</a></li>
+      <li><a href="#">NOTES</a></li>
+      <li><a href="#">NEWS</a></li>
+      <li><a href="/contact">CONTATTI</a></li>
+    </ul>
+  </nav>
+  <script type="text/javascript">
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+      links.forEach(link => {
+        link.classList.toggle("fade");
+      });
+    });
+  </script>
+
+  <div class="box-map">
+      <div class="box-contact">
+        <div class="contact">
+          <h1>ROMA</h1>
+          <div class="address">
+            <p>Via Pompeo Magno, 1</p>
+            <p>00192 - Roma</p>
+            <p>info@caprientertainment.it</p>
+          </div>
+          <p>
+            <a href="https://m.facebook.com/caprientertainementsrl/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/caprientertainment/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/caprientertainment/"><i class="fab fa-linkedin-in"></i></a>
+          </p>
+        </div>
+        <h1>WE WANT YOU!</h1>
+        <div class="address">
+          <p>Sei un giovane regista, sceneggiatore o filmmaker? Scrivici, noi crediamo in te!</p>
+        </div>
+        <p class="small">L’autore verrà ricontattato solo se interessati, non commenteremo un esito negativo.</p>
+      </div>
+  </div>
