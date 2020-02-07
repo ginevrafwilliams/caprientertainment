@@ -1,24 +1,23 @@
-.banner h1 {
-  margin: 0;
+// box blue
+
+.box_blue h1 {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 25px;
+  font-size: 21px;
   font-weight: normal;
-  text-align: center;
+  padding-top: 30px;
 }
-
-// box blue
 
 .box_blue .banner {
   background-image: image-url("grotta2.jpeg");
   background-size: cover;
   background-position: center;
-  padding: 70px 0;
+  padding: 120px 0;
   box-shadow: 0 16px 40px rgba(0,0,0,0.12);
 }
 
 .box_blue p {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
   text-align: justify;
   font-size: 18px;
@@ -31,32 +30,30 @@
   color: white;
 }
 
-// box blue2
-
-.box_blue2 .banner {
-  background-image: image-url("caprifamily.jpeg");
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
-}
-
 // box white
 
 .box_white {
   background-color: white;
 }
 
+.box_white h1 {
+  color: #001525;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 21px;
+  font-weight: normal;
+  padding-top: 30px;
+}
+
 .box_white .banner {
-  background-image: image-url("placeholder.jpg");
+  background-image: image-url("caprisimple2.jpg");
   background-size: cover;
   background-position: center;
-  padding: 70px 0;
+  padding: 120px 0;
   box-shadow: 0 16px 40px rgba(0,0,0,0.12);
 }
 
 .box_white p {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
   text-align: justify;
   font-size: 18px;
@@ -70,18 +67,24 @@
 }
 
 @media (min-width: 600px) {
-  .banner h1 {
-    font-size: 50px;
+  .box_blue h1 {
+    font-size: 25px;
+    padding-top: 60px;
+  }
+
+  .box_white h1 {
+    font-size: 25px;
+    padding-top: 60px;
   }
 
   .box_blue .banner {
-    padding: 150px 0;
+    padding: 200px 0;
   }
 
   .box_blue p {
     font-size: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 60px;
   }
 
   .text_blue {
@@ -90,22 +93,19 @@
   }
 
   .box_white .banner {
-    padding: 150px 0;
+    padding: 200px 0;
+    background-position: initial;
   }
 
   .box_white p {
     font-size: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 60px;
   }
 
   .text_white {
     margin-left: 100px;
     margin-right: 100px;
-  }
-
-  .box_blue2 .banner {
-    padding: 320px 0;
   }
 }
 
