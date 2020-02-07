@@ -18,12 +18,17 @@
   opacity: 0.5;
 }
 
-.social {
-margin-top: 20px;
-margin-bottom: 10px;
-margin-left: 40px;
-margin-right: 40px;
+.info p a:hover {
+  color: white;
+  opacity: 1;
 }
+
+.social {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  }
 
 .social .fa-facebook-f:before {
   color: white;
