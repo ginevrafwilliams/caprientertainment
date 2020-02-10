@@ -4,22 +4,22 @@
 @import "config/bootstrap_variables";
 
 // External libraries
-// @import "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
-@import "bulma";
+// @import "bulma";
+// @import 'bulma.sass';
+// @import "bulmaCarousel.sass";
+
 
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
 @import "pages/aboutme";
 @import "pages/contact";
+@import "pages/home";
 
 body {
   background-color: #001525;
-  margin: 0px;
 }
 
-// html {
-//   background-color: #001525;
-// }
