@@ -10,12 +10,11 @@ gem 'redis'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
-gem 'sass-rails'
+gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 # gem "bulma-rails", "~> 0.8.0"
-gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
