@@ -1,0 +1,75 @@
+.navbar-trn {
+  z-index: 999;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background: none !important;
+}
+
+.navbar-brand img {
+  width: 220px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: transparent;
+  border: none;
+  color: white;
+  opacity: 0.5;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: white;
+    opacity: 0.7;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    padding-left: 8px;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: white;
+    opacity: 1;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: white;
+    opacity: 1;
+}
+
+.navbar-light .navbar-toggler {
+    color: white !important;
+    border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    opacity: 0.7;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1.5rem;
+      padding-left: 0.5rem;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    opacity: 0.7;
+  }
+
+  .navbar-nav .nav-item.active .nav-link,
+  .navbar-nav .nav-item:hover .nav-link {
+    color: white;
+    opacity: 1;
+  }
+
+}

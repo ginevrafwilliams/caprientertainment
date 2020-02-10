@@ -11,6 +11,7 @@
 
 .info p {
   color: white;
+  margin-bottom: 0px;
 }
 
 .info p a {
@@ -53,12 +54,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
   }
 
   .info {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 10px;
     font-size: 12px;
+  }
+
+  .info p {
+    color: white;
+    margin-bottom: 0px;
   }
 
   .social {
