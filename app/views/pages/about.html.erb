@@ -7,7 +7,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="/about"> CHI SIAMO <span class="sr-only">(current)</span></a>
+        <a class="nav-link" class="first" href="/about"> CHI SIAMO <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -25,11 +25,17 @@
         <a class="nav-link" href="#">NEWS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">CONTATTI</a>
+        <a class="nav-link" href="/contact">CONTATTI</a>
       </li>
     </ul>
   </div>
 </nav>
+
+<script>
+$(".navbar-toggler").click(function () {
+$("nav").toggleClass("bg-light");
+})
+</script>
 
   <div class="box_blue">
     <div class="banner">
