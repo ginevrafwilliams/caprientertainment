@@ -31,6 +31,26 @@
   </div>
 </nav>
 
+<script>
+
+const hamburger = document.querySelector('button');
+  hamburger.addEventListener("click", (event) => {
+    const navbar = document.querySelector('.navbar-trn');
+    const text = document.querySelectorAll('.nav-item');
+    navbar.classList.toggle("my-style");
+    if (window.getComputedStyle(navbar).getPropertyValue("background-color") === "rgba(0, 0, 0, 0)" ) {
+        text.forEach((element) => {
+            element.classList.add("my-font");
+          });
+    } else {
+        text.forEach((element) => {
+            element.classList.remove("my-font");
+          });
+    };
+  });
+
+</script>
+
 <div id="carouselExampleControls" class="my-carousel carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
