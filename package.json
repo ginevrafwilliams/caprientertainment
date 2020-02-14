@@ -1,9 +1,6 @@
 {
   "name": "caprientertainment",
   "private": true,
-  "engines": {
-    "node": "12.15.0"
-  },
   "dependencies": {
     "@rails/webpacker": "4.2.2",
     "bootstrap": "^4.4.1",
